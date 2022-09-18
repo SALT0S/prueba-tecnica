@@ -79,7 +79,7 @@ const updateEntry = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     res.status(400).json({ message: error.errors.status.message });
   }
   // entryToUpdate.title = title;
-  // entryToUpdate.status = status;
+  entryToUpdate.status = status;
   // await entryToUpdate.save();
 };
 

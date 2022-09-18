@@ -42,7 +42,7 @@ export const DesktopBar = () => {
         </ul>
 
         <Link href="/auth/login" passHref>
-          <a className="hidden md:block font-medium text-black hover:underline">
+          <a className="hidden md:block rounded-full w-full md:w-auto bg-black text-white px-5 py-2 text-center font-medium hover:bg-gray-700">
             Login
           </a>
         </Link>

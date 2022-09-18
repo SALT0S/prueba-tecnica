@@ -34,7 +34,7 @@ const LoginPage = () => {
               />
 
               <button
-                className="focus:shadow-outline my-2 w-full rounded-full bg-blue-500 py-2 px-4 text-sm font-bold uppercase text-white hover:bg-blue-700 focus:outline-none"
+                className="focus:shadow-outline my-2 w-full rounded-full bg-black py-2 px-4 text-sm font-bold uppercase text-white hover:bg-gray-700 focus:outline-none"
                 type="button"
               >
                 Sign In

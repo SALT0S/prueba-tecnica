@@ -14,26 +14,26 @@ const RegisterPage = () => {
             <div className="w-full px-3">
               <label
                 className="mb-2 block text-sm font-semibold tracking-wide text-gray-700"
-                htmlFor="grid-email"
+                htmlFor="grid-name"
               >
                 First Name
               </label>
               <input
                 className="mb-3 block w-full appearance-none rounded-full border border-gray-100 bg-gray-100 py-3 px-4 leading-tight text-gray-700 focus:border-gray-100 focus:bg-white focus:outline-none"
-                id="grid-email"
-                type="email"
+                id="grid-name"
+                type="text"
               />
 
               <label
                 className="mb-2 block text-sm font-semibold tracking-wide text-gray-700"
-                htmlFor="grid-email"
+                htmlFor="grid-LastN"
               >
                 Last Name
               </label>
               <input
                 className="mb-3 block w-full appearance-none rounded-full border border-gray-100 bg-gray-100 py-3 px-4 leading-tight text-gray-700 focus:border-gray-100 focus:bg-white focus:outline-none"
-                id="grid-email"
-                type="email"
+                id="grid-LastN"
+                type="text"
               />
 
               <label
@@ -61,7 +61,7 @@ const RegisterPage = () => {
               />
 
               <button
-                className="focus:shadow-outline my-2 w-full rounded-full bg-blue-500 py-2 px-4 text-sm font-bold uppercase text-white hover:bg-blue-700 focus:outline-none"
+                className="focus:shadow-outline my-2 w-full rounded-full bg-black py-2 px-4 text-sm font-bold uppercase text-white hover:bg-gray-700 focus:outline-none"
                 type="button"
               >
                 Create Account

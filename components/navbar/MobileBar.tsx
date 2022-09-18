@@ -1,4 +1,5 @@
 import { Popover, Transition } from "@headlessui/react";
+import Link from "next/link";
 import { Fragment } from "react";
 import { HiX } from "react-icons/hi";
 import { MenuNav } from "../../constants";
@@ -46,9 +47,11 @@ export const MobileBar = () => {
             ))}
           </ul>
 
-          <p className="block w-full bg-gray-50 px-5 py-3 text-center font-medium hover:bg-gray-100 dark:bg-zinc-900">
-            Login
-          </p>
+          <Link href="/auth/login" passHref>
+            <a className="block w-full bg-gray-50 px-5 py-3 text-center font-medium hover:bg-gray-100 dark:bg-zinc-900">
+              Login
+            </a>
+          </Link>
         </div>
       </Popover.Panel>
     </Transition>
